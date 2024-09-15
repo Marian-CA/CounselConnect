@@ -2,11 +2,16 @@
 
 ## Description
 
-This Python script scrapes data on therapists from the GoodTherapy website for therapists located in Cumming, GA. The script helps users find therapists based on their specialty by extracting and displaying detailed information such as the therapist's name, qualifications, specialty, address, and phone number. This tool is particularly useful for individuals seeking specialized therapy services and wanting to efficiently gather relevant therapist data from multiple pages of search results.
+This Python script scrapes data on therapists from the GoodTherapy website for therapists located in Cumming, GA. The script helps users find therapists based on their specialty by extracting and displaying detailed information such as the therapist's name, qualifications, specialty, address, and phone number. We scraped data from pages 1 through 5 of the GoodTherapy website, providing a list of available therapists in Cumming, GA.
+
+The GoodTherapy website also includes therapist information for other states, which could be included in future scraping efforts.
+
 
 ## Website Used
 
-The scraper targets the GoodTherapy website (`https://www.goodtherapy.org/therapists/ga/cumming?p=`) due to its comprehensive directory of licensed therapists. The website was chosen for its extensive listing of therapists, which allows users to filter and find professionals based on their needs. It provides a centralized source for relevant therapist information in the specified geographic location.
+The scraper targets the GoodTherapy website (`https://www.goodtherapy.org/therapists/ga/cumming?p=1`) due to its comprehensive directory of licensed therapists. The website was chosen for its extensive listing of therapists, which allows users to filter and find professionals based on their needs. It provides a centralized source for relevant therapist information in the specified geographic location.
+
+**Note:** Data has currently been scrapped from pages 1 through 5. 
 
 ## How to Run
 
