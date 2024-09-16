@@ -12,7 +12,7 @@ We are collecting this data to:
 - **Analyze**: Examine therapist information to gain insights into available services in a specific region.
 - **Demonstrate**: Showcase practical applications of data collection and processing.
 
-## Data Sources and `robots.txt`
+## Data Sources and robots.txt
 
 - **Data Source**: The data is collected from https://www.goodtherapy.org/therapists/ga/cumming?p=1 , which provides a directory of therapists.
 - **Compliance**: The robots.txt file for GoodTherapy does not disallow scraping of the therapist directory pages. We have verified compliance by reviewing the robots.txt file located at [https://www.goodtherapy.org/robots.txt](https://www.goodtherapy.org/robots.txt).
