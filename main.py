@@ -65,9 +65,13 @@ def scrape_page(page_num, search_specialty):
 # Get user input for specialty search
 search_specialty = input("Enter the specialty you want to search for: ")
 
-# Scrape multiple pages 
+import time
+
+# Scrape multiple pages (e.g., first 5 pages) with a delay between requests
 for page in range(1, 6):
     scrape_page(page, search_specialty)
+    time.sleep(2)  # Sleep for 2 seconds between requests
+
 
 
 
