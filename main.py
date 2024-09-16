@@ -63,14 +63,20 @@ def scrape_page(page_num, search_specialty):
                         print("-" * 50)  # Separator between therapists
 
 # Get user input for specialty search
-search_specialty = input("Enter the specialty you want to search for: ")
+print("This program helps you find the right therapist based on your specific needs and specialties.")
+print("")
+search_specialty = input("Enter the therapist specialty you want to search for: ")
+print("")
 
 import time
 
 # Scrape multiple pages (e.g., first 5 pages) with a delay between requests
+print("Here are the therapists that match the ",search_specialty,"speciality")
+print("")
 for page in range(1, 6):
     scrape_page(page, search_specialty)
     time.sleep(2)  # Sleep for 2 seconds between requests
+
 
 
 
